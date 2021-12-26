@@ -13,9 +13,9 @@
     text-decoration: none;
 }
 
-body {
-    margin: 0;
+.container-fluid {
     padding: 0;
+    margin: 0;
 }
 
 
@@ -34,11 +34,6 @@ body {
     border: none;
     display: flex;
     justify-content: space-evenly;
-}
-
-.container-fluid {
-    margin: 0;
-    padding: 0;
 }
 
 .nav-item {
