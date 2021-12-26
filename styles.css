@@ -10,6 +10,7 @@
     margin: 0;
     display: block;
     width: 100%;
+    text-decoration: none;
 }
 
 body {
@@ -18,7 +19,7 @@ body {
 }
 
 
-.subheader {
+/* .subheader {
     display: flex;
     position: -webkit-sticky;
 }
@@ -40,3 +41,9 @@ body {
     padding: 0;
 }
 
+.nav-item {
+    background-color: white;
+    color: white;
+    padding: 0;
+    margin: 0;
+} */
