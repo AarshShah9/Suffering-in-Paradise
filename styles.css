@@ -46,6 +46,14 @@ li {
     font-size: 1.25rem;
 }
 
+@media (max-width: 768px) {
+    li {font-size: 1rem;}
+}
+
+#nav-item {
+    color: white;
+}
+
 .top-links {
     padding: 0px;
     margin: 0px;
@@ -53,4 +61,8 @@ li {
 
 #icons {
     justify-content: center;
+}
+
+body {
+    background-color: black;
 }
