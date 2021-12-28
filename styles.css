@@ -1,44 +1,56 @@
+/* @import 'bootstrap-5.1.3-dist/css/bootstrap'; */
+
 
 #h1 {
     color: white;
     text-align: center;
     font-family: 'Pacifico', cursive;
-    font-style: normal;
-    font-size: 75px;
+    font-size: 2rem;
     background-color: #E83126;
     padding: 40px;
     margin: 0;
-    display: block;
-    width: 100%;
-    text-decoration: none;
 }
+
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 576px) {  
+    #h1 {font-size:2.5rem;}
+    }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {  
+    #h1 {font-size:3rem;}
+    }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    #h1 {font-size:3.5rem;}
+    }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+    #h1 {font-size:4rem;}
+    }
+
+/* Extra large devices (large desktops, 1400px and up) */
+@media (min-width: 1400px) {  
+    #h1 {font-size:4.5rem;}
+        }
+
 
 .container-fluid {
     padding: 0;
     margin: 0;
 }
 
-
-/* .subheader {
-    display: flex;
-    position: -webkit-sticky;
+li {
+    font-size: 1.25rem;
 }
 
-.nav-bar-links {
-    font-family: 'Assistant', sans-serif;
-    width: 100%;
-    font-size: 20px;
-    margin: 0;
-    padding: 20px 0px;
-    background-color: black;
-    border: none;
-    display: flex;
-    justify-content: space-evenly;
+.top-links {
+    padding: 0px;
+    margin: 0px;
 }
 
-.nav-item {
-    background-color: white;
-    color: white;
-    padding: 0;
-    margin: 0;
-} */
+#icons {
+    justify-content: center;
+}

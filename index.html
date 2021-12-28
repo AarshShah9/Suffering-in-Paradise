@@ -6,54 +6,179 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Suffering in Paradise</title>
-    <link rel="shortcut icon" type="image/jpg" href="images/generic_sip_logo-removebg-preview.png"/>
+    <link rel="shortcut icon" type="image/jpg" href="images/generic_sip_logo-removebg-preview.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@300&family=Pacifico&display=swap"
         rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
+    <link href="bootstrap-5.1.3-dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class='container-fluid'>
-    <a href="#" id="h1" >Suffering in Paradise</a>
+<body class='container-fluid bg-black'>
 
-    <div class="nav-bar-links">
-        <nav class="navbar navbar-expand-md navbar-dark bg-black py-md-4">
-            <div class="container-fluid">
-                <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active col" aria-current="page" href="#">HOME</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active col" href="episodes.html">EPISODES</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active col" href="team.html">TEAM</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active col" href="contact.html">CONTACT</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active col" href="sponsors.html">SPONSORS</a>
-                        </li>
-                    </ul>
-                </div>
+    <a href="#" class="container-fluid text-decoration-none">
+        <h1 class="h1" id="h1">Suffering in Paradise</h1>
+    </a>
+
+    <!-- 
+    <div class='row bg-black' id="top-links">
+        <div class="col-3" id="icons">
+            <a href="https://open.spotify.com/show/1CAareyd5S18brittKkAb1" target='_blank'><img
+                    src="images/spotify-2.svg" width='40%' height='40%' alt="Spotify"></a>
+        </div>
+        <div class="col-3" id="icons">
+            <a href="https://podcasts.apple.com/ca/podcast/suffering-in-paradise/id1526019658" target='_blank'><img
+                    src="images/Apple Podcasts logo.svg" width='40%' height='40%' alt="Apple Podcasts">
+            </a>
+        </div>
+        <div class="col-3" id="icons">
+            <a href="https://www.youtube.com/channel/UCDrrkY1TVKEdAh6jLOMByLQ" target='_blank'><img
+                    src="images/youtube-3.svg" width='40%' height='40%' alt="Youtube">
+            </a>
+        </div>
+        <div class="col-3" id="icons">
+            <a href="https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8yZTVhNjczOC9wb2RjYXN0L3Jzcw=="
+                target='_blank'><img src="images/google-podcasts.svg" width='40%' height='40%' alt="Google Podcasts">
+            </a>
+        </div>
+    </div> -->
+
+
+    <nav class="navbar navbar-expand-md navbar-dark py-sm-2">
+        <div class="container-fluid">
+
+            <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active col" aria-current="Home Page" href="#">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active col" aria-current="Episodes Page" href="episodes.html">EPISODES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active col" aria-current="Team Page" href="team.html">TEAM</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active col" aria-current="Contact Page" href="contact.html">CONTACT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active col" aria-current="Sponsors Page" href="sponsors.html">SPONSORS</a>
+                    </li>
+                </ul>
             </div>
-        </nav>
-    </div>
-    <div>
+        </div>
+    </nav>
 
-    </div>
-    
 
+    <div class="text-dark bg-white" style="border: 100px; padding: 15px;">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, culpa. Id natus soluta consequuntur officiis
+        nihil et maxime reprehenderit quidem! Laboriosam cupiditate repudiandae placeat atque praesentium itaque autem
+        dignissimos dolore.
+        Iure dolore accusantium nihil vel placeat voluptatibus vitae sequi pariatur inventore eos recusandae possimus
+        veniam delectus magnam enim corporis, iste dolor deleniti minus excepturi! Autem ab cupiditate suscipit soluta
+        ullam.
+        Corrupti fugiat saepe eveniet ipsam ab? Voluptates voluptatibus iusto quaerat! Omnis praesentium dolor iure sit
+        facilis! Alias voluptatibus voluptatum nulla illum ea voluptate vel expedita delectus, laborum, saepe facere
+        corporis?
+        Dolorem consequuntur quasi explicabo cupiditate distinctio rerum. Suscipit ipsa assumenda nobis ratione
+        temporibus, praesentium neque? Quidem, unde. A voluptas hic, id animi quia, similique saepe commodi quidem
+        minima sint neque.
+        Harum consequatur nihil suscipit sit sunt quod quo dolor numquam hic omnis non, id, veniam, maiores minus
+        asperiores ducimus. Quisquam quae odit recusandae nobis consequuntur ea provident, facilis dolorum praesentium?
+        Labore, neque! Corporis accusamus vitae rem voluptate ducimus, optio nobis quod quasi adipisci nulla distinctio
+        atque nemo voluptatum id placeat sint perferendis quia laudantium neque, quam tenetur alias debitis ab.
+        Odio dolor cum laboriosam dolores minus modi iure esse assumenda ex voluptate eos perspiciatis voluptatem
+        nostrum sapiente unde, reiciendis molestiae explicabo quidem! Deleniti sit rem repellendus, ipsa consequuntur
+        error similique!
+        Sunt, quis fugit quam quisquam optio unde magni sint reiciendis earum amet quia odit? Non, accusamus voluptatem
+        dolorem omnis sit earum, ducimus eius praesentium ipsa corrupti, aut quos veritatis dignissimos?
+        Voluptates, doloribus magnam. Magni maxime, nam fugit corporis vero rerum neque, accusamus provident, deserunt
+        eum veniam modi illum? Maxime debitis neque culpa repellat, impedit magni soluta in placeat id ab.
+        Odio ex maiores quam nemo adipisci dicta pariatur quibusdam autem laborum quis rem ab itaque fugit quisquam,
+        soluta harum, recusandae suscipit illo enim laboriosam ullam sit! Obcaecati non id in!
+        Voluptatem temporibus, voluptate qui beatae error ipsa, natus omnis ad, atque fugit rem culpa illo officiis
+        nihil voluptatibus! Modi commodi molestias optio eveniet qui nesciunt numquam doloremque architecto ab
+        reprehenderit.
+        Aut quasi sed incidunt omnis officia esse fuga deserunt voluptate aliquam impedit velit atque, officiis, maxime
+        est praesentium id quis voluptatum modi maiores labore rem! Animi laudantium similique obcaecati pariatur!
+        Numquam doloribus deserunt, repudiandae incidunt eligendi fuga accusantium ab iste veniam distinctio ipsa quae.
+        Ut voluptatum amet labore numquam consectetur facere. Laboriosam quam vel maiores magnam praesentium?
+        Aspernatur, laboriosam vitae?
+        Corporis soluta nisi impedit aliquid consequatur repellat rerum, ab omnis, quo sunt ex illo voluptatum ullam
+        repudiandae maiores doloremque eius delectus, eligendi vitae maxime tempora quos ipsa est! Sapiente, non!
+        Deserunt nemo voluptatibus esse tempore. Iure, deserunt atque! Voluptates quod ea vero beatae esse nesciunt
+        laudantium nam numquam architecto aliquam, officia praesentium pariatur voluptatum omnis nihil aspernatur dicta
+        doloremque deserunt.
+        Quae, expedita! Assumenda cumque consectetur harum, eum quam cum dolorum, inventore culpa quasi totam repellat
+        unde nostrum sequi temporibus explicabo illum aperiam? Expedita error repellendus, obcaecati totam placeat
+        maxime corrupti?
+        Harum culpa accusamus sequi cumque sapiente, exercitationem adipisci cum quod fuga blanditiis consequatur nihil.
+        Et quisquam veniam quas, ab optio perspiciatis reprehenderit explicabo aperiam omnis maxime officia. Harum,
+        officiis corrupti?
+        Unde maxime soluta aliquid! Iusto libero laborum repellat commodi. Dignissimos, id accusantium dicta nisi
+        tenetur cupiditate ut? Officia vel, mollitia molestias, cumque facere deleniti eaque ut, dolor excepturi rem
+        aperiam.
+        Eaque dolorem autem perferendis debitis est nostrum at numquam provident sequi sunt velit repellat maiores
+        obcaecati, dolore tenetur vel sit quisquam. Eos facilis saepe id dolorum delectus, quaerat doloribus ipsum!
+        Dolorem qui inventore at nam ipsum quibusdam suscipit dicta dolor laboriosam debitis provident fugit sequi
+        similique illo distinctio numquam voluptate voluptatum animi magnam maxime, culpa non quaerat minus. Dolorum,
+        corporis!
+        Earum corrupti suscipit soluta consequuntur pariatur, inventore non velit nam eius praesentium eligendi
+        voluptate neque quidem, aliquam facere a eaque? Explicabo porro tenetur doloremque sapiente culpa, fugit
+        deserunt eius similique.
+        Tempora unde consequatur nulla aliquid eaque possimus fugiat harum quo facilis ipsam in aperiam dolore, dicta
+        voluptates excepturi blanditiis recusandae laborum tempore sed sint perferendis enim corrupti! Quidem,
+        repudiandae in?
+        Ullam non possimus accusamus, amet fuga, impedit expedita aperiam qui ipsam odit aliquam id quam tempora quidem
+        commodi aspernatur exercitationem repellat a saepe. Incidunt, ducimus? Eos, mollitia! Distinctio, assumenda hic.
+        Voluptas commodi placeat veniam, accusantium at ipsa nesciunt iure explicabo recusandae porro veritatis corporis
+        fugit asperiores neque a labore dolore nam natus tenetur ut? Corporis magni sunt omnis quae accusamus.
+        Laudantium perspiciatis, sit repellendus facilis obcaecati excepturi, molestiae eaque similique esse tempore
+        sunt rem, numquam in deleniti praesentium cumque dolores recusandae a odio! Reprehenderit illo quo iste
+        molestias asperiores harum.
+    </div>
+
+    <!-- <footer>
+        <img src="images/instagram-2-1.svg" alt="Instagram">
+        <img src="images/spotify-2.svg" alt="Spotify">
+        <img src="images/Apple Podcasts logo.svg" alt="Apple Podcasts">
+        <img src="images/youtube-3.svg" alt="Youtube">
+        <img src="images/google-podcasts.svg" alt="Google Podcasts">
+    </footer> -->
+
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <div class="col-md-4 d-flex align-items-center">
+                <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                    <svg class="bi" width="30" height="24">
+                        <use xlink:href="#bootstrap" />
+                    </svg>
+                </a>
+                <span class="text-muted">&copy; 2021 Suffering in Paradise</span>
+            </div>
+
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24">
+                            <use href="images/instagram-2-1.svg" />
+                        </svg></a></li>
+                <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24">
+                            <use xlink:href="#instagram" />
+                        </svg></a></li>
+                <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24">
+                            <use xlink:href="#facebook" />
+                        </svg></a></li>
+            </ul>
+        </footer>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
