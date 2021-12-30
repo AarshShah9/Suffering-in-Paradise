@@ -79,3 +79,8 @@ body {
 .navbar {
     background-color: black;
 }
+
+.team-info {
+    padding: 25px;
+    overflow-wrap: break-word;
+}
