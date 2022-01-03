@@ -82,7 +82,6 @@ body {
 
 .team-info {
     padding: 25px;
-    overflow-wrap: break-word;
 }
 
 @media (max-width: 768px) {
