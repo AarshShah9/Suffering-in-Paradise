@@ -118,8 +118,59 @@ body {
 
 .podcast-vectors:hover {
     background-color: grey;
+    transition: all 0.2s ease-in-out;
 }
 
 #podcast-links {
     text-decoration: none;
+}
+
+.artwork2 {
+    width: 150%;
+}
+
+@media (max-width: 768px) {
+    .artwork2 {
+        max-width: 50%;
+        width: auto;
+        margin: auto;
+        display: block;
+        }
+    }
+
+.episodes-hover:hover .artwork2 {
+    opacity: 50%;
+    transition: all 0.2s ease-in-out;
+}
+
+#episode-links {
+    text-decoration: none;
+}
+
+
+/* .imageBox {
+    position: relative;
+    float: left;
+  } */
+  
+  .imageBox .hoverImg {
+    position: absolute;
+    display: none;
+  }
+  
+  .imageBox:hover .hoverImg {
+    display: inline-block;
+    width: 50%;
+  }
+
+  .hovereffect {
+      position: relative;
+  }
+
+  .relative1 {
+      position: absolute;
+  }
+
+#playbutton {
+    width: 50%;
 }
